@@ -1,0 +1,12 @@
+grade:A
+addr_state:CA
+verification_status:Not Verified
+purpose:db_co
+initial_list_status:w
+term:36
+emp_length:10
+int_rate:27_31
+annual_inc:90K_159K
+mths_since_last_delinq:17_48
+mths_since_last_record:67_121
+dti:7_30

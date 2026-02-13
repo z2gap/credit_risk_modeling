@@ -16,8 +16,8 @@ This project computes credit risk factors using the **Advanced IRB (A-IRB)** app
 - **[01_EDA.ipynb](01_EDA.ipynb)** – Exploratory data analysis, checking data types and missing values, and creating dummy variables for categorical features.  
 - **[02_data_preparation.ipynb](02_data_preparation.ipynb)** – Fine/coarse classing of continuous variables. Computes **Weight of Evidence (WoE)** and **Information Value (IV)** to identify similar risk groups for coarse classing.  
 - **[03_PD_model.ipynb](03_PD_model.ipynb)** – Builds PD model using logistic regression for interpretability. Validates with **ROC-AUC**, **Gini**, and **Kolmogorov-Smirnov** statistics. Generates FICO-style scorecards for customers.  
-- **[04_EAD_model.ipynb](04_EAD_model.ipynb)** – Creates EAD model using **Beta regression**. Evaluates performance with **RMSE** and **R$^2$**.  
-- **[05_LGD_model.ipynb](05_LGD_model.ipynb)** – Develops LGD model using **Tweedie regression**. Evaluates performance with **RMSE** and **R$^2$**.  
+- **[04_EAD_model.ipynb](04_EAD_model.ipynb)** – Creates EAD model using **Beta regression**. Evaluates performance with **RMSE** and **R²**.  
+- **[05_LGD_model.ipynb](05_LGD_model.ipynb)** – Develops LGD model using **Tweedie regression**. Evaluates performance with **RMSE** and **R²**.  
 - **[05_EL_model.ipynb](05_EL_model.ipynb)** – Constructs **Expected Loss (EL)** model by combining PD, EAD, and LGD predictions.
 
 
@@ -46,4 +46,12 @@ pip install -r requirements.txt
 ```bash
 curl -L -o data/lending-club-loan-data-csv.zip\
   https://www.kaggle.com/api/v1/datasets/download/adarshsng/lending-club-loan-data-csv
+<<<<<<< HEAD
 ```
+=======
+
+unzip data/lending-club-loan-data.zip -d data/
+
+rm data/lending-club-loan-data.zip
+```
+>>>>>>> 50befdbd61be76a64ba6fa198e6ef54f7a82c716

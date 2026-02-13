@@ -44,14 +44,6 @@ pip install -r requirements.txt
 ## Download Data
 
 ```bash
-curl -L -o data/lending-club-loan-data-csv.zip\
+curl -L -o ~/Downloads/lending-club-loan-data-csv.zip\
   https://www.kaggle.com/api/v1/datasets/download/adarshsng/lending-club-loan-data-csv
-<<<<<<< HEAD
 ```
-=======
-
-unzip data/lending-club-loan-data.zip -d data/
-
-rm data/lending-club-loan-data.zip
-```
->>>>>>> 50befdbd61be76a64ba6fa198e6ef54f7a82c716

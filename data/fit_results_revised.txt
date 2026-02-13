@@ -3,8 +3,8 @@
 Dep. Variable:               good_bad   No. Observations:               400000
 Model:                          Logit   Df Residuals:                   399950
 Method:                           MLE   Df Model:                           49
-Date:                Wed, 11 Feb 2026   Pseudo R-squ.:                 0.05553
-Time:                        21:12:39   Log-Likelihood:                -26408.
+Date:                Fri, 13 Feb 2026   Pseudo R-squ.:                 0.05553
+Time:                        02:05:04   Log-Likelihood:                -26408.
 converged:                       True   LL-Null:                       -27961.
 Covariance Type:            nonrobust   LLR p-value:                     0.000
 =======================================================================================================

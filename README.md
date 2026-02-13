@@ -29,11 +29,16 @@ git clone git@github.com:z2gap/credit_risk_modeling.git
 cd credit_risk_modeling/
 ```
 
-Use conda to create separate environment
+Manage dependencies via conda
 
 ```bash
 conda env create -f environment.yml
 conda activate py310_env
+```
+or pip 
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Download Data
@@ -41,8 +46,4 @@ conda activate py310_env
 ```bash
 curl -L -o data/lending-club-loan-data-csv.zip\
   https://www.kaggle.com/api/v1/datasets/download/adarshsng/lending-club-loan-data-csv
-
-unzip data/lending-club-loan-data.zip -d data/
-
-rm data/lending-club-loan-data.zip
 ```
